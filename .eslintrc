@@ -1,0 +1,14 @@
+{
+  "extends": "eslint:recommended",
+  "rules": {
+    "no-await-in-loop": "warn",
+    "no-constant-binary-expression": "warn",
+    "no-constructor-return": "error",
+    "no-duplicate-imports": "warn",
+    "no-new-native-nonconstructor": "error",
+    "no-promise-executor-return": "warn",
+    "no-self-compare": "warn",
+    "no-unmodified-loop-condition": "error",
+    "no-unreachable-loop": "warn"
+  }
+}
