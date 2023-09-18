@@ -287,7 +287,418 @@
 			}
 		],
 		"no-empty-function": [
-			""
+			"off",
+			{
+				"allow": [
+					"arrowFunctions",
+					"asyncFunctions",
+					"asyncMethods",
+					"constructors",
+					"functions",
+					"generatorFunctions",
+					"generatorMethods",
+					"getters",
+					"methods",
+					"setters"
+				]
+			}
+		],
+		"no-empty-static-block": [
+			"off"
+		],
+		"no-eq-null": [
+			"off"
+		], // Use eqeqeq instead
+		"no-eval": [
+			"error",
+			{
+				"allowIndirect": false
+			}
+		],
+		"no-extend-native": [
+			"error",
+			{
+				"exceptions": []
+			}
+		],
+		"no-extra-bind": [
+			"warn"
+		],
+		"no-extra-boolean-cast": [
+			"off",
+			{
+				"enforceForLogicalOperands": true
+			}
+		],
+		"no-extra-label": [
+			"off"
+		],
+		"no-extra-semi": [
+			"warn"
+		],
+		"no-floating-decimal": [
+			"off"
+		],
+		"no-global-assign": [
+			"off",
+			{
+				"exceptions": []
+			}
+		],
+		"no-implicit-coercion": [
+			"off",
+			{
+				"allow": [],
+				"boolean": true,
+				"disallowTemplateShorthand": false,
+				"number": true,
+				"string": true
+			}
+		],
+		"no-implicit-globals": [
+			"error",
+			{
+				"lexicalBindings": false
+			}
+		],
+		"no-implied-eval": [
+			"error"
+		],
+		"no-inline-comments": [
+			"off",
+			{
+				"ignorePattern": ""
+			}
+		],
+		"no-invalid-this": [
+			"error",
+			{
+				"capIsConstructor": true
+			}
+		],
+		"no-iterator": [
+			"error"
+		],
+		"no-label-var": [
+			"off"
+		],
+		"no-labels": [
+			"off",
+			{
+				"allowLoop": true,
+				"allowSwitch": true
+			}
+		],
+		"no-lone-blocks": [
+			"off"
+		],
+		"no-lonely-if": [
+			"warn"
+		],
+		"no-loop-func": [
+			"error"
+		],
+		"no-magic-numbers": [
+			"off",
+			{
+				"detectObjects": false,
+				"enforceConst": false,
+				"ignore": [],
+				"ignoreArrayIndexes": false,
+				"ignoreClassFieldInitialValues": false,
+				"ignoreDefaultValues": false
+			}
+		],
+		"no-mixed-operators": [
+			"off",
+			{
+				"allowSamePrecedence": true,
+				"groups": []
+			}
+		],
+		"no-multi-assign": [
+			"off",
+			{
+				"ignoreNonDeclaration": false
+			}
+		],
+		"no-multi-str": [
+			"off"
+		],
+		"no-negated-condition": [
+			"off"
+		],
+		"no-nested-ternary": [
+			"off"
+		],
+		"no-new": [
+			"error"
+		],
+		"no-new-func": [
+			"error"
+		],
+		"no-new-object": [
+			"error"
+		],
+		"no-new-wrappers": [
+			"warn"
+		],
+		"no-nonoctal-decimal-escape": [
+			"error"
+		],
+		"no-octal": [
+			"warn"
+		],
+		"no-octal-escape": [
+			"off"
+		],
+		"no-param-reassign": [
+			"error",
+			{
+				"props": false
+			}
+		],
+		"no-plusplus": [
+			"off",
+			{
+				"allowForLoopAfterthoughts": true
+			}
+		],
+		"no-proto": [
+			"error"
+		],
+		"no-redeclare": [
+			"error",
+			{
+				"builtinGlobals": true
+			}
+		],
+		"no-regex-spaces": [
+			"error"
+		],
+		"no-restricted-exports": [
+			"off",
+			{
+				"restrictDefaultExports": {},
+				"restrictedNamedExports": []
+			}
+		],
+		"no-restricted-properties": [
+			"off",
+			{
+				"message": "",
+				"object": "",
+				"property": ""
+			}
+		],
+		"no-restricted-syntax": [
+			"off",
+			{
+				"message": "",
+				"selector": ""
+			}
+		],
+		"no-return-assign": [
+			"error",
+			"always"
+		],
+		"no-script-url": [
+			"error"
+		],
+		"no-sequences": [
+			"off",
+			{
+				"allowInParentheses": true
+			}
+		],
+		"no-shadow": [
+			"warn",
+			{
+				"allow": [],
+				"builtinGlobals": false,
+				"hoist": "functions",
+				"ignoreOnInitialization": false
+			}
+		],
+		"no-shadow-restricted-names": [
+			"error"
+		],
+		"no-ternary": [
+			"off"
+		],
+		"no-throw-literal": [
+			"error"
+		],
+		"no-undef-init": [
+			"warn"
+		],
+		"no-underscore-dangle": [
+			"off"
+		],
+		"no-unneeded-ternary": [
+			"warn"
+		],
+		"no-unused-expressions": [
+			"off"
+		],
+		"no-unused-labels": [
+			"error"
+		],
+		"no-useless-call": [
+			"warn"
+		],
+		"no-useless-catch": [
+			"warn"
+		],
+		"no-useless-computed-key": [
+			"warn",
+			{
+				"enforceForClassMembers": true
+			}
+		],
+		"no-useless-concat": [
+			"off"
+		],
+		"no-useless-constructor": [
+			"warn"
+		],
+		"no-useless-escape": [
+			"warn"
+		],
+		"no-useless-rename": [
+			"off"
+		],
+		"no-useless-return": [
+			"off"
+		],
+		"no-var": [
+			"error"
+		],
+		"no-void": [
+			"error",
+			{
+				"allowAsStatement": true
+			}
+		],
+		"no-warning-comments": [
+			"off"
+		],
+		"no-with": [
+			"error"
+		],
+		"object-shorthand": [
+			"off"
+		],
+		"one-var": [
+			"off"
+		],
+		"one-var-declaration-per-line": [
+			"off"
+		],
+		"operator-assignment": [
+			"off",
+			"never"
+		],
+		"prefer-arrow-callback": [
+			"off"
+		],
+		"prefer-const": [
+			"warn",
+			{
+				"destructuring": "all",
+				"ignoreReadBeforeAssign": false
+			}
+		],
+		"prefer-destructuring": [
+			"off"
+		],
+		"prefer-exponentiation-operator": [
+			"off"
+		],
+		"prefer-named-capture-group": [
+			"warn"
+		],
+		"prefer-numeric-literals": [
+			"off"
+		],
+		"prefer-object-has-own": [
+			"warn"
+		],
+		"prefer-object-spread": [
+			"warn"
+		],
+		"prefer-promise-reject-errors": [
+			"error",
+			{
+				"allowEmptyReject": true
+			}
+		],
+		"prefer-regex-literals": [
+			"warn"
+		],
+		"prefer-rest-params": [
+			"warn"
+		],
+		"prefer-spread": [
+			"warn"
+		],
+		"prefer-template": [
+			"warn"
+		],
+		"quote-props": [
+			"off"
+		],
+		"radix": [
+			"error",
+			"as-needed"
+		],
+		"require-await": [
+			"off"
+		],
+		"require-unicode-regexp": [
+			"warn"
+		],
+		"require-yield": [
+			"error"
+		],
+		"sort-imports": [
+			"warn",
+			{
+				"ignoreCase": false,
+				"ignoreDeclarationSort": false,
+				"ignoreMemberSort": false,
+				"memberSyntaxSortOrder": [
+					"none",
+					"all",
+					"multiple",
+					"single"
+				],
+				"allowSeparatedGroups": false
+			}
+		],
+		"sort-keys": [
+			"off"
+		],
+		"sort-vars": [
+			"off"
+		],
+		"spaced-comment": [
+			"warn",
+			"always"
+		],
+		"strict": [
+			"warn",
+			"safe"
+		],
+		"symbol-description": [
+			"off"
+		],
+		"vars-on-top": [
+			"off"
+		],
+		"yoda": [
+			"warn",
+			"never"
 		]
 		// Layout & Formatting
 	}
