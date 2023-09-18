@@ -699,7 +699,146 @@
 		"yoda": [
 			"warn",
 			"never"
-		]
+		],
 		// Layout & Formatting
+		"array-bracket-newline": [
+			"warn",
+			"never"
+		],
+		"array-bracket-spacing": [
+			"warn",
+			"never"
+		],
+		"array-element-newline": [
+			"off",
+			"consistent"
+		],
+		"arrow-parens": [
+			"warn",
+			"as-needed",
+			{
+				"requireForBlockBody": true
+			}
+		],
+		"arrow-spacing": [
+			"warn",
+			{
+				"before": true,
+				"after": true
+			}
+		],
+		"block-spacing": [
+			"warn",
+			"always"
+		],
+		"brace-style": [
+			"warn",
+			"1tbs",
+			{
+				"allowSingleLine": true
+			}
+		],
+		"comma-dangle": [
+			"warn",
+			"always-multiline"
+		],
+		"comma-spacing": [
+			"warn",
+			{
+				"before": false,
+				"after": true
+			}
+		],
+		"comma-style": [
+			"warn",
+			"last"
+		],
+		"computed-property-spacing": [
+			"warn",
+			"never"
+		],
+		"dot-location": [
+			"warn",
+			"property"
+		],
+		"eol-last": [
+			"off"
+		],
+		"func-call-spacing": [
+			"warn",
+			"never"
+		],
+		"function-call-argument-newline": [
+			"warn",
+			"consistent"
+		],
+		"function-paren-newline": [
+			"warn",
+			"consistent"
+		],
+		"generator-star-spacing": [
+			"warn",
+			"after"
+		],
+		"implicit-arrow-linebreak": [
+			"warn",
+			"beside"
+		],
+		"indent": [
+			"warn",
+			"tab",
+			{
+				"SwitchCase": 1,
+				"VariableDeclarator": 1
+			}
+		],
+		"jsx-quotes": [
+			"warn",
+			"prefer-double"
+		],
+		"key-spacing": [
+			"warn",
+			{
+				"afterColon": true,
+				"beforeColon": false,
+				"mode": "minimum",
+				"align": "value"
+			}
+		],
+		"keyword-spacing": [
+			"warn",
+			{
+				"before": true,
+				"after": true,
+				"overrides": {}
+			}
+		],
+		"line-comment-position": [
+			"warn",
+			"above"
+		],
+		"linebreak-style": [
+			"warn",
+			"unix"
+		],
+		"lines-around-comment": [
+			"off",
+			{
+				"beforeBlockComment": true,
+				"beforeLineComment": true
+			}
+		],
+		"lines-between-class-members": [
+			"warn",
+			"always"
+		],
+		"max-len": [
+			"warn",
+			{
+				"tabWidth": 4,
+				"code": 120,
+				"comments": 120
+			}
+		]
 	}
 }
