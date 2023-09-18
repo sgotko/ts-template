@@ -1,0 +1,7 @@
+{
+	"compilerOptions": {
+		"strictNullChecks": true,
+		"allowJs": false,
+		"rootDir": "src"
+	}
+}
